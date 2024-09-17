@@ -1,5 +1,11 @@
 # Land of Lisp draft note
 
+- write on a file
+```clisp
+sbcl --script file.lisp
+```
+
+
 - Addition
 ```clisp
 [1]> (+ 3 ( * 2 4))
@@ -51,3 +57,13 @@ Shift right ... 101 = 4 + 1 = 5
 [2]> (ash 11 -1)
 5
 ```
+
+- `guess-my-number`
+```lisp
+(defparameter *small* 1)
+(defparameter *big* 100)
+
+(defun guess-my-number () 
+  (ash (+ *small* *big*) -1 ))
+```
+101 -> 
