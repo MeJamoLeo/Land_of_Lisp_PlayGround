@@ -1,4 +1,3 @@
-#!/usr/local/bin/sbcl --script
 (print "Hello, World!")
 
 (print "Addition")
@@ -30,3 +29,13 @@
 (print (bigger))
 (print (smaller))
 (print (bigger))
+
+(flet ((f (n)
+	  (+ n 10)))
+  (f 5))
+
+(flet ((f (n)
+	  (+ n 10))
+       (g (n) 
+	  (- n 3)))
+  (print (g (f 5))))
