@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+      "vscodelisp.vscode-lisp",
+      "blitzcode.vscode-lisp",
+      "alivedebug.alive",
+      "editorconfig.editorconfig",
+      "vscode-icons-team.vscode-icons",
+      "eamodio.gitlens",
+      "usernamehw.errorlens",
+      "streetsidesoftware.code-spell-checker",
+      "yzhang.markdown-all-in-one",
+      "ms-vscode.makefile-tools",
+      "foxundermoon.shell-format",
+      "redhat.vscode-yaml"
+  ]
+}

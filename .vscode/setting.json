@@ -1,0 +1,12 @@
+{
+  "alive.lisp.runtime": "sbcl",
+  "alive.lisp.quicklispPath": "~/quicklisp",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.fasl": true
+  }
+}
